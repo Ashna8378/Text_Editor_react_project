@@ -1,0 +1,52 @@
+.text-editor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.text-editor {
+  width: 80%;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.text-editor h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-editor textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: none;
+}
+
+.text-editor .count-btn {
+  font-size: 18px;
+  color: #fff;
+  background-color: #0056b3; /* Blue button color */
+  padding: 10px 20px; /* Add padding for spacing */
+  border: none;
+  border-radius: 10px; /* Add rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Add margin to separate from textarea */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.text-editor .count-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
